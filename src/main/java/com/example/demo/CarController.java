@@ -17,7 +17,7 @@ public class CarController {
 	}
 	
 	@RequestMapping("/api/cool-cars")
-	@CrossOrigin(origins = "https://martin-spring-boot-example.herokuapp.com")
+	@CrossOrigin(origins = "https://martin-tour-of-hero.herokuapp.com")
 	public List<Car> getCoolCars(){
 		return this.carService.findAllCars();
 	}
